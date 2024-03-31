@@ -10,7 +10,7 @@ const personalMovieDB = {
 };
 
 for (let i = 0; i < 2; i++) {
-  const a = prompt("какой последний фильм?", ""),
+  const a = prompt("какой последний фильм?", "").trim(),
     b = prompt("его оценка", "");
 
   if (a != null && b != null && a != "" && b != "" && a.length < 50) {
